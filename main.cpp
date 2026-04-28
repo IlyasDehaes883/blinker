@@ -5,11 +5,11 @@
 #include "Blinker.h"
 
 
-blinker led1 = blinker(14,800);
-blinker led2 = blinker(5,800);
-blinker led3 = blinker(26,500);
-blinker led4 = blinker(18,400);
-blinker led5 = blinker(19,300);
+blinker led1 = blinker(14,800,100);
+blinker led2 = blinker(5,800,50);
+blinker led3 = blinker(26,500,60);
+blinker led4 = blinker(18,400,100);
+blinker led5 = blinker(19,300,50);
 
 
 
@@ -32,4 +32,5 @@ led4.handle();
 led5.handle();
 
 }
+
 
