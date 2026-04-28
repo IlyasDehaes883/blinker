@@ -5,7 +5,6 @@
 class blinker{
 private: 
    unsigned long _volgendeblinkom ;
-  unsigned long _nu ;
   unsigned long _blinkinterval ;
   unsigned long _ledpin ;
 public:
