@@ -4,8 +4,8 @@
 blinker:: blinker(unsigned int ledpin ,unsigned long blinkinterval){
     _ledpin = ledpin;
 _blinkinterval = blinkinterval;
-_nu =millis();
-_volgendeblinkom = _nu;
+    
+_startDelay = startDelay
 }
 blinker:: ~blinker(){
 
@@ -21,7 +21,7 @@ int blinker:: begin(){
 
 int blinker:: handle(){
   int retVal = false;
-  _nu = millis();
+  unsigned long _nu = millis();
   if (_nu > _volgendeblinkom) {
     _volgendeblinkom = _nu + _blinkinterval ;
     digitalWrite(_ledpin, !digitalRead(_ledpin)) ;
