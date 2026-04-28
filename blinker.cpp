@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include "Blinker.h"
 
-blinker:: blinker(unsigned int ledpin ,unsigned long blinkinterval){
+blinker:: blinker(unsigned int ledpin ,unsigned long blinkinterval , const long startDelay){
     _ledpin = ledpin;
 _blinkinterval = blinkinterval;
     
