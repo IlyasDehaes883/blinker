@@ -13,7 +13,8 @@ blinker:: ~blinker(){
 
 int blinker:: begin(){
   pinMode(_ledpin, OUTPUT);
- return 0;
+    
+_volgendeblinkom =  millis() + startDelay
 
 
 
