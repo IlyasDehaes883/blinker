@@ -4,12 +4,12 @@
 
 class blinker{
 private: 
-   unsigned long _startDelay ;
+   unsigned long _startDelay;
   unsigned long _blinkinterval ;
 unsigned long _volgendeblinkom ;
   unsigned long _ledpin ;
 public:
-blinker(unsigned int ledpin ,unsigned long blinkinterval);
+blinker(unsigned int ledpin ,unsigned long blinkinterval , const long startDelay);
 ~blinker();
 int begin(); 
 int handle();
