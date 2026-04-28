@@ -6,7 +6,7 @@ class blinker{
 private: 
    unsigned long _startDelay ;
   unsigned long _blinkinterval ;
-unsigned long _volgendeblinkom 
+unsigned long _volgendeblinkom ;
   unsigned long _ledpin ;
 public:
 blinker(unsigned int ledpin ,unsigned long blinkinterval);
